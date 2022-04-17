@@ -2,13 +2,13 @@
 
 With this simple JavaScript programm you can log the IP of someone visiting your website.
 
----
 
 # 👀 Preview
 
 <img src="https://media.discordapp.net/attachments/943973140604784670/965191071996981268/unknown.png" width="700px" alt="Example image.">
 The country flag changes to the country where the IP is located!
 
+<br>
 <br>
 
 # 🎬 Usage
@@ -25,7 +25,7 @@ Just add the following to your `<head>` in [`index.html`](https://github.com/lui
 ```
 
 ## Additional tip
-If you want to you can style the [`index.html`](https://github.com/luisoos/IP-Log-To-Webhook/blob/main/index.html) so it doesn't look too suspicious.
+If you want to you can style the [`index.html`](https://github.com/luisoos/IP-Log-To-Webhook/blob/main/index.html) file so it doesn't look too suspicious.
 
 <br>
 
