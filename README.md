@@ -6,12 +6,8 @@ With this simple JavaScript programm you can log the IP of someone visiting your
 
 # 👀 Preview
 
-<details>
-  <summary>Click here for a preview</summary>
-  <br>
-  <p> The country flag changes to the country where the IP is located! </p>
-  <img src="https://media.discordapp.net/attachments/943973140604784670/965191071996981268/unknown.png" width="700px" alt="Example image.">
-</details>
+<img src="https://media.discordapp.net/attachments/943973140604784670/965191071996981268/unknown.png" width="700px" alt="Example image.">
+The country flag changes to the country where the IP is located!
 
 <br>
 
