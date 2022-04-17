@@ -1,6 +1,6 @@
 # IP Data to Discord Webhook
 
-With this simple JavaScript program you can log the IP of someone visiting your website.
+With this JavaScript program you can log the IP of someone visiting your website and send IP information to your Discord Webhook.
 
 
 # 👀 Preview
