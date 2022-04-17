@@ -29,6 +29,8 @@ Just copy this into your website and change the redirect and webhook URL:
 ## Method 2 (Local):
 
 ### Set up
+Copy the project.
+
 Change the variable `webHookURL` in [`index.js`](https://github.com/luisoos/IP-Log-To-Webhook/blob/main/index.js) to your URL.
 
 ### Redirect 
