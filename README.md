@@ -1,6 +1,6 @@
 # IP Data to Discord Webhook
 
-With this simple JavaScript programm you can log the IP of someone visiting your website.
+With this simple JavaScript program you can log the IP of someone visiting your website.
 
 
 # 👀 Preview
@@ -26,30 +26,26 @@ Just copy this into your website and change the redirect and webhook URL:
 <script>var webHookUrl = "YOUR_WEBHOOK_URL_HERE";</script>
 ```
 
-<details>
-  
-  <summary> <h2> Method 2 (Local): </h2> </summary>
+## Method 2 (Local):
 
-  <h3> Set up </h3>
-  Change the variable `webHookURL` in [`index.js`](https://github.com/luisoos/IP-Log-To-Webhook/blob/main/index.js) to your URL.
+### Set up
+Change the variable `webHookURL` in [`index.js`](https://github.com/luisoos/IP-Log-To-Webhook/blob/main/index.js) to your URL.
 
-  <h3> Redirect </h3>
-  Let a user redirect to another site after the IP was logged.
+### Redirect 
+Let a user redirect to another site after the IP was logged.
 
-  Just add the following to your `<head>` in [`index.html`](https://github.com/luisoos/IP-Log-To-Webhook/blob/main/index.html):
+Just add the following to your `<head>` in [`index.html`](https://github.com/luisoos/IP-Log-To-Webhook/blob/main/index.html):
 
-  ```
-  <meta http-equiv="refresh" content="3;url=MAINPAGE.html" />
-  ```
+```
+<meta http-equiv="refresh" content="3;url=MAINPAGE.html" />
+```
 
-  <h3> Additional tip </h3>
-  If you want to you can style the [`index.html`](https://github.com/luisoos/IP-Log-To-Webhook/blob/main/index.html) file so it doesn't look too suspicious.
-</details>
+### Additional tip
+If you want to, you can style the [`index.html`](https://github.com/luisoos/IP-Log-To-Webhook/blob/main/index.html) file, so it doesn't look too suspicious.
+
 
 # 📑 Annotations
 ## License
 This project is licensed under the [`MIT License`](https://github.com/luisoos/IP-Log-To-Webhook/blob/main/LICENSE).
-<details>
-  <summary> <h2> Discord Mobile Preview </h2> </summary>
+## Discord Mobile Preview
 <img src="https://media.discordapp.net/attachments/943973140604784670/965186137243148308/IMG_9823.png?width=471&height=683">
-</details>
