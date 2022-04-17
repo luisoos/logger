@@ -12,10 +12,16 @@ The country flag changes to the country where the IP is located!
 
 # 🎬 Usage
 ## Method 1 (CDN):
-Just copy this into the end of the `body` element in your website and change the Webhook URL:
+Just copy this into your website and change the redirect and webhook URL:
 
-```
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+```HTML
+<!-- Copy this into the <head> -->
+<meta http-equiv="refresh" content="3;url=MAINPAGE.html" /> 
+
+...
+
+<!-- Copy this into the end of <body> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
 <script src="https://cdn.jsdelivr.net/gh/luisoos/IP-Log-To-Discord-Webhook/index.js"></script>
 <script>var webHookUrl = "YOUR_WEBHOOK_URL_HERE";</script>
 ```
