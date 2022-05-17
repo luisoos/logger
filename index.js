@@ -3,7 +3,7 @@
 var webHookUrl = "YOUR_WEBHOOK_URL_HERE";
 
 /*
-    Forked from: https://github.com/luisoos/IP-Log-To-Webhook
+    Forked from: https://github.com/luisoos/IP-Log-To-Discord-Webhook
     License: MIT
 */
 
