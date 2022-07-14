@@ -8,7 +8,7 @@ var webHookUrl = "YOUR_WEBHOOK_URL_HERE";
 */
 
 const request = async () => { // Calling a "synchronous" fetch
-    const response = await fetch('http://ip-api.com/json/');
+    const response = await fetch('https://ip-api.com/json/');
     const data = await response.json();
 
     // Declaring variables
